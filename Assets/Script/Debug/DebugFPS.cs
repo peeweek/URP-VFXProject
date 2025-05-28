@@ -82,8 +82,8 @@ public class DebugFPS : MonoBehaviour
         _sb.AppendLine("DEBUG INFO");
         _sb.AppendLine($"Frame Time : {smoothedDeltaTime.ToString("F2")} ms. ({(1000f/smoothedDeltaTime).ToString("F1")} FPS) ");
         _sb.AppendLine("");
-        _sb.AppendLine($"{PauseAction.bindings[0].name} for Pause, {StepAction.bindings[0].name} for Stepping 1 Frame");
+        _sb.AppendLine($"F9 for Pause, F10 for Stepping 1 Frame");
 
-        GUI.Label(new Rect(0, 0, 800, 400), _sb.ToString());
+        GUI.Label(new Rect(10, 10, 800, 400), _sb.ToString());
     }
 }
