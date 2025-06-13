@@ -8,20 +8,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_MT_Rock01
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 53be94e452cb9989eacb261df409ceba, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _EMISSION
-  - _NORMALMAP
-  - _OCCLUSIONMAP
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
@@ -84,6 +80,26 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_3fbb02be032449318023cf940402a1c1_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: e9d440ea633ba1644bc2e0ccac7843b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_47bc47c418054b1e9abdcbf990639ba2_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 9a5c409bdc5453e44a5ad62e470b06a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_5c075a26d35b431c8e10299f7bf51a0a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: e6945235aa7216a4988a562b69872ca5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_79d060e01fc14e32b69c0f1101e70b76_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: e6945235aa7216a4988a562b69872ca5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_82e7f269aeb14f1ca10da088e1a7b08e_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: e479bd4f5fd53f543aa08e11bbda8aca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -119,6 +135,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _Dissolve: 0
     - _DissolveColor_Exponent: 4
     - _DistortionBlend: 0.5
     - _DistortionEnabled: 0
@@ -154,6 +171,7 @@ Material:
     - _Surface: 0
     - _UVSec: 0
     - _WorkflowMode: 1
+    - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
