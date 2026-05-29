@@ -71,7 +71,7 @@ MonoBehaviour:
     m_SingletonActionBindings:
     - m_Name: 
       m_Id: 8b1dbc96-7d87-44b2-8b7a-1bab00eef1ad
-      m_Path: <Keyboard>/f10
+      m_Path: <Keyboard>/f8
       m_Interactions: 
       m_Processors: 
       m_Groups: 
